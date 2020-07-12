@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personal portfolio with work examples">
+  <title>Spring Forever</title>
+  <link rel="stylesheet" type="text/css" href="app.css">
+</head>
+
+<body>
+  <div class="service-page-wrapper">
+
+    <!-- Burger menu-->
+    <div class="menu" id="menu">
+      <div class="container menu-container">
+        <button class="btn_close menu__close-btn" id="close-menu-btn" aria-label="Close menu"></button>
+        <div class="logo">
+          <a href="index.html" class="logo__link">
+            <img src="./assets/images/svg/logo.svg" class="logo__img" alt="Logo image">
+            <span class="logo__text">Spring forever</span>
+          </a>
+        </div>
+        <nav class="menu__nav">
+          <ul class="menu__list">
+            <li class="menu__item">
+              <a href="wedding.html" class="menu__link">
+                Wedding floristics
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="service.html" class="menu__link">
+                Bouquets for celebrations
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="compositions.html" class="menu__link">
+                Compositions
+              </a>
+            </li>
+            <li class="menu__item">
+              <a href="decoration.html" class="menu__link">
+                Event decoration
+              </a>
+            </li>
+          </ul>
+        </nav>
+        <ul class="social social_vertical menu__social">
+          <li class="social__link social__link_instagram">
+            <a href="#" aria-label="Link to the Instagram profile">
+              <svg class="social__icon">
+                <use xlink:href="./assets/images/svg/svg-sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__link social__link_facebook">
+            <a href="#" aria-label="Link to the Facebook profile">
+              <svg class="social__icon">
+                <use xlink:href="./assets/images/svg/svg-sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__link social__link_vkontakte">
+            <a href="#" aria-label="Link to the Vkontakte profile">
+              <svg class="social__icon">
+                <use xlink:href="./assets/images/svg/svg-sprite.svg#vkontakte"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <header class="header">
+      <div class="container header-container">
+        <div class="logo">
+          <a href="index.html" class="logo__link">
+            <img src="./assets/images/svg/logo.svg" class="logo__img" alt="Logo image">
+            <span class="logo__text">Spring forever</span>
+          </a>
+        </div>
+        <button class="burger" id="open-menu-btn">Menu</button>
+      </div>
+    </header>
+
+    <main class="service-page">
+
+      <div class="service-page__img" style="background-image: url(assets/images/bg/wedding-bg.jpg)"></div>
+      <div class="service-page__content content">
+        <div class="content__inner">
+          <h2 class="content__title">
+            Bouquets for celebrations
+          </h2>
+          <p class="content__text">
+            We have a huge variety of bouquets for any event.
+            You can buy both a delicate and bright bouquet, as well as men's, round, upright,
+            fan-shaped, bouquets, umbrellas, bouquets in the vegetative technique and many other
+            exotic species.
+          </p>
+          <button class="content__order-btn btn btn_regular open-modal-order">Order</button>
+          <div class="content__slider">
+            <div class="swiper-button-prev">
+              <div class="arrow"></div>
+            </div>
+            <div class="swiper-button-next">
+              <div class="arrow"></div>
+            </div>
+            <div class="swiper-container ">
+              <div class="swiper-wrapper content-slider-wrapper">
+                <div class="swiper-slide content-slider__item">
+                  <img src="assets/images/sliders/celebration/slide1.jpg" alt="Bouquet sample number one">
+                </div>
+                <div class="swiper-slide content-slider__item">
+                  <img src="assets/images/sliders/celebration/slide2.jpg" alt="Bouquet sample number two">
+                </div>
+                <div class="swiper-slide content-slider__item">
+                  <img src="assets/images/sliders/celebration/slide3.jpg" alt="Bouquet sample number three">
+                </div>
+                <div class="swiper-slide content-slider__item">
+                  <img src="assets/images/sliders/celebration/slide4.jpg" alt="Bouquet sample number four">
+                </div>
+                <div class="swiper-slide content-slider__item">
+                  <img src="assets/images/sliders/celebration/slide5.jpg" alt="Bouquet sample number five">
+                </div>
+                <div class="swiper-slide content-slider__item">
+                  <img src="assets/images/sliders/celebration/slide6.jpg" alt="Bouquet sample number six">
+                </div>
+                <div class="swiper-slide content-slider__item">
+                  <img src="assets/images/sliders/celebration/slide7.jpg" alt="Bouquet sample number seven">
+                </div>
+                <div class="swiper-slide content-slider__item">
+                  <img src="assets/images/sliders/celebration/slide8.jpg" alt="Bouquet sample number eight">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <a href="#" class="content__insta-link">
+          More photos on profile
+          <svg class="insta-link-icon">
+            <use xlink:href="./assets/images/svg/svg-sprite.svg#instagram"></use>
+          </svg>
+        </a>
+      </div>
+
+    </main>
+
+    <footer class="footer footer_mobile-only">
+      <div class="container container_wide footer-container">
+        <ul class="footer-chapters__list">
+          <li class="footer-chapters__item">
+            <a href="#">Wedding floristics</a>
+          </li>
+          <li class="footer-chapters__item">
+            <a href="service.html">Bouquets for any celebration</a>
+          </li>
+          <li class="footer-chapters__item">
+            <a href="#">Bridal bouquets</a>
+          </li>
+          <li class="footer-chapters__item">
+            <a href="#">Compositions</a>
+          </li>
+          <li class="footer-chapters__item">
+            <a href="#">Event decoration</a>
+          </li>
+        </ul>
+        <ul class="social footer-social">
+          <li class="social__link social__link_instagram">
+            <a href="#" aria-label="Link to the Instagram profile">
+              <svg class="social__icon">
+                <use xlink:href="./assets/images/svg/svg-sprite.svg#instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__link social__link_facebook">
+            <a href="#" aria-label="Link to the Facebook profile">
+              <svg class="social__icon">
+                <use xlink:href="./assets/images/svg/svg-sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="social__link social__link_vkontakte">
+            <a href="#" aria-label="Link to the Vkontakte profile">
+              <svg class="social__icon">
+                <use xlink:href="./assets/images/svg/svg-sprite.svg#vkontakte"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Order modal -->
+  <div class="modal-overlay" id="modal-window">
+    <div class="modal" id="modal">
+      <button class="modal__close-btn btn_close" aria-label="Close" id="close-modal-btn"></button>
+      <div class="modal__img" style="background-image: url(./assets/images/bg/callback-modal-bg.jpg)"></div>
+      <div class="modal__content">
+        <h2 class="modal__title">Leave your phone number and we will call you back!</h2>
+        <form class="callback-form">
+          <input type="text" name="name" class="callback-form__input" placeholder="Name">
+          <input type="tel" name="tel" class="callback-form__input" placeholder="Phone">
+          <button class="callback-form__submit btn btn_invert" type="submit">
+            Call me back
+          </button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+
+</html>
